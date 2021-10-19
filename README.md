@@ -3,7 +3,7 @@
 ## Usage:
 
 ```
-usage: run.py [-h] [-g] path
+usage: python run.py [-h] [-g] path
 
 positional arguments:
   path            path to a csv file
