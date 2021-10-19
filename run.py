@@ -37,7 +37,7 @@ def run_multi_sum(path, generate_file=False):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("path")
+    parser.add_argument("path", help="path to a csv file")
     parser.add_argument("-g", "--generate", help="generate a file for testing", action="store_true")
     the_args = parser.parse_args()
     if the_args.path.lower().endswith(".csv"):
