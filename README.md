@@ -1,7 +1,6 @@
 # batch-multi-sum
 
 ## Usage:
-
 ```
 usage: python run.py [-h] [-g] path
 
@@ -12,3 +11,6 @@ optional arguments:
   -h, --help      show this help message and exit
   -g, --generate  generate a file for testing
 ```
+
+## Notes:
+* Tested on python 3.9.1
